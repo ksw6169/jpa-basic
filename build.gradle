@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+}
+
+group 'org.corgi.jpastudy'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.hibernate:hibernate-entitymanager:5.3.10.Final"
+    implementation "com.h2database:h2:1.4.199"
+
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
