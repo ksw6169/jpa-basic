@@ -1,4 +1,4 @@
-package org.corgi.jpastudy.example.domain;
+package org.corgi.jpastudy.example.oneToMany.domain;
 
 import lombok.Getter;
 import lombok.Setter;

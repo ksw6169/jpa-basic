@@ -1,14 +1,14 @@
-package org.corgi.jpastudy.example;
+package org.corgi.jpastudy.example.oneToMany;
 
-import org.corgi.jpastudy.example.domain.Member;
-import org.corgi.jpastudy.example.domain.Team;
+import org.corgi.jpastudy.example.oneToMany.domain.Member;
+import org.corgi.jpastudy.example.oneToMany.domain.Team;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class JpaMain {
+public class OneToManyMain {
 
     public static void main(String[] args) {
 
