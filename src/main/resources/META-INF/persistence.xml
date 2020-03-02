@@ -6,8 +6,12 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence">
 
     <persistence-unit name="test">
-        <class>org.corgi.jpastudy.example.manyToMany.domain.Product</class>
-        <class>org.corgi.jpastudy.example.manyToMany.domain.Member</class>
+        <class>org.corgi.jpastudy.exercise.domain.Category</class>
+        <class>org.corgi.jpastudy.exercise.domain.Delivery</class>
+        <class>org.corgi.jpastudy.exercise.domain.Item</class>
+        <class>org.corgi.jpastudy.exercise.domain.Member</class>
+        <class>org.corgi.jpastudy.exercise.domain.Order</class>
+        <class>org.corgi.jpastudy.exercise.domain.OrderItem</class>
 
         <properties>
             <!-- 필수 속성 -->
