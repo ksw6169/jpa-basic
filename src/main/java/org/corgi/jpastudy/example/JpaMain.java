@@ -1,4 +1,7 @@
-package org.corgi.jpastudy.example1;
+package org.corgi.jpastudy.example;
+
+import org.corgi.jpastudy.example.domain.Member;
+import org.corgi.jpastudy.example.domain.Team;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -9,20 +12,23 @@ public class JpaMain {
 
     public static void main(String[] args) {
 
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
         EntityManager em = emf.createEntityManager();
         EntityTransaction tx = em.getTransaction();
 
         tx.begin();
 
         try {
-            // 준영속
             Member member = new Member();
-            member.setId(1L);
-            member.setName("A");
+            member.setUsername("member1");
 
-            // 영속
             em.persist(member);
+
+            Team team = new Team();
+            team.setName("teamA");
+            team.getMembers().add(member);
+
+            em.persist(team);
 
             tx.commit();
         } catch (Exception e) {
