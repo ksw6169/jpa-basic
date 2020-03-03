@@ -1,11 +1,13 @@
 package org.corgi.jpastudy.example.inheritance;
 
 import org.corgi.jpastudy.example.inheritance.joined.domain.Movie;
+import org.corgi.jpastudy.example.inheritance.mappedSuperclass.domain.Member;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
+import java.time.LocalDateTime;
 
 public class InheritanceMain {
 
@@ -18,19 +20,15 @@ public class InheritanceMain {
         tx.begin();
 
         try {
-            Movie movie = new Movie();
-            movie.setDirector("directorA");
-            movie.setActor("actorA");
-            movie.setName("movieA");
-            movie.setPrice(10000);
+            Member member = new Member();
+            member.setUsername("user1");
+            member.setCreatedBy("kim");
+            member.setCreatedDate(LocalDateTime.now());
 
-            em.persist(movie);
+            em.persist(member);
 
             em.flush();
             em.clear();
-
-            Movie findMovie = em.find(Movie.class, movie.getId());
-            System.out.println("findMove = " + findMovie);
 
             tx.commit();
         } catch (Exception e) {
