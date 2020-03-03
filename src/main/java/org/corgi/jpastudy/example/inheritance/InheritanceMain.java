@@ -1,14 +1,13 @@
-package org.corgi.jpastudy.example.inheritance.joinStrategy;
+package org.corgi.jpastudy.example.inheritance;
 
-import org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Item;
-import org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Movie;
+import org.corgi.jpastudy.example.inheritance.joined.domain.Movie;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class JoinStrategyMain {
+public class InheritanceMain {
 
     public static void main(String[] args) {
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");

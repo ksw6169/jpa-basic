@@ -1,4 +1,4 @@
-package org.corgi.jpastudy.example.inheritance.joinStrategy.domain;
+package org.corgi.jpastudy.example.inheritance.joined.domain;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,7 +1,5 @@
 package org.corgi.jpastudy.exercise;
 
-import org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Movie;
-
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
