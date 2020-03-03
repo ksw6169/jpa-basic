@@ -1,5 +1,7 @@
 package org.corgi.jpastudy.exercise;
 
+import org.corgi.jpastudy.exercise.domain.Book;
+
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
@@ -16,6 +18,11 @@ public class ExerciseMain {
         tx.begin();
 
         try {
+            Book book = new Book();
+            book.setName("JPA");
+            book.setAuthor("김영한");
+            em.persist(book);
+
             tx.commit();
         } catch (Exception e) {
             tx.rollback();
