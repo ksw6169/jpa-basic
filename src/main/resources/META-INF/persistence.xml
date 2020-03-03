@@ -6,12 +6,10 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence">
 
     <persistence-unit name="test">
-        <class>org.corgi.jpastudy.exercise.domain.Category</class>
-        <class>org.corgi.jpastudy.exercise.domain.Delivery</class>
-        <class>org.corgi.jpastudy.exercise.domain.Item</class>
-        <class>org.corgi.jpastudy.exercise.domain.Member</class>
-        <class>org.corgi.jpastudy.exercise.domain.Order</class>
-        <class>org.corgi.jpastudy.exercise.domain.OrderItem</class>
+        <class>org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Item</class>
+        <class>org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Album</class>
+        <class>org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Movie</class>
+        <class>org.corgi.jpastudy.example.inheritance.joinStrategy.domain.Book</class>
 
         <properties>
             <!-- 필수 속성 -->
@@ -26,7 +24,7 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
             <property name="hibernate.jdbc.batch_size" value="10"/>
-            <property name="hibernate.hbm2ddl.auto" value="create"/>    <!-- create, create-drop, update, validate, none -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>    <!-- create, create-drop, update, validate, none -->
         </properties>
     </persistence-unit>
 </persistence>
