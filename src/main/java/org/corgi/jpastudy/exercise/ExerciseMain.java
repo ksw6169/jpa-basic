@@ -10,6 +10,7 @@ import javax.persistence.Persistence;
 public class ExerciseMain {
 
     public static void main(String[] args) {
+
         EntityManagerFactory emf = Persistence.createEntityManagerFactory("test");
 
         EntityManager em = emf.createEntityManager();
