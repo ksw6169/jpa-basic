@@ -8,4 +8,5 @@
   - [4장_엔티티 매핑](https://github.com/ksw6169/jpa-basic/wiki/4%EC%9E%A5_%EC%97%94%ED%8B%B0%ED%8B%B0-%EB%A7%A4%ED%95%91)
   - [5장_연관관계 매핑 기초](https://github.com/ksw6169/jpa-basic/wiki/5%EC%9E%A5_%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91-%EA%B8%B0%EC%B4%88)
   - [6장_다양한 연관관계 매핑](https://github.com/ksw6169/jpa-basic/wiki/6%EC%9E%A5_%EB%8B%A4%EC%96%91%ED%95%9C-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91)
+  - [7장_고급 매핑](https://github.com/ksw6169/jpa-basic/wiki/7%EC%9E%A5_%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91)
 - [Issues](https://github.com/ksw6169/jpa-basic/issues)
