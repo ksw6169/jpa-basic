@@ -10,6 +10,6 @@
   - [6장_다양한 연관관계 매핑](https://github.com/ksw6169/jpa-basic/wiki/6%EC%9E%A5_%EB%8B%A4%EC%96%91%ED%95%9C-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EB%A7%A4%ED%95%91)
   - [7장_고급 매핑](https://github.com/ksw6169/jpa-basic/wiki/7%EC%9E%A5_%EA%B3%A0%EA%B8%89-%EB%A7%A4%ED%95%91)
   - [8장_프록시와 연관관계 관리](https://github.com/ksw6169/jpa-basic/wiki/8%EC%9E%A5_%ED%94%84%EB%A1%9D%EC%8B%9C%EC%99%80-%EC%97%B0%EA%B4%80%EA%B4%80%EA%B3%84-%EA%B4%80%EB%A6%AC)
-  - [9장_값 타입](https://github.com/ksw6169/jpa-basic/wiki/9%EC%9E%A5_%EA%B0%92-%ED%83%80%EC%9E%85
+  - [9장_값 타입](https://github.com/ksw6169/jpa-basic/wiki/9%EC%9E%A5_%EA%B0%92-%ED%83%80%EC%9E%85)
   - [10장_객체지향 쿼리 언어](https://github.com/ksw6169/jpa-basic/wiki/10%EC%9E%A5_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%BF%BC%EB%A6%AC-%EC%96%B8%EC%96%B4)
 - [Issues](https://github.com/ksw6169/jpa-basic/issues)
