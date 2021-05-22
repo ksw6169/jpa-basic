@@ -1,12 +1,8 @@
-plugins {
-    id 'java'
-}
+apply plugin: 'java'
 
 group 'com.corgi.jpastudy'
 version '1.0-SNAPSHOT'
-
 sourceCompatibility = 1.8
-compileJava.options.encoding = 'UTF-8'
 
 repositories {
     mavenCentral()
@@ -15,6 +11,7 @@ repositories {
 ext {
     springBootVersion = "2.4.5"
     lombokVersion = "1.18.12"
+//    querydslVersion = "4.4.0"
 }
 
 dependencies {
@@ -28,4 +25,21 @@ dependencies {
     implementation "org.hibernate:hibernate-entitymanager:5.3.10.Final"
     implementation "mysql:mysql-connector-java:6.0.6"
     implementation "io.springfox:springfox-boot-starter:3.0.0"
+
+//    implementation "com.querydsl:querydsl-jpa:$querydslVersion"
+//    implementation "com.querydsl:querydsl-apt:$querydslVersion"
+//    annotationProcessor "com.querydsl:querydsl-apt:$querydslVersion"
 }
+
+//def generated='src/main/generated'
+//sourceSets {
+//    main.java.srcDirs += [ generated ]
+//}
+//
+//tasks.withType(JavaCompile) {
+//    options.annotationProcessorGeneratedSourcesDirectory = file(generated)
+//}
+//
+//clean.doLast {
+//    file(generated).deleteDir()
+//}

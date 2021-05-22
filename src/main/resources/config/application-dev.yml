@@ -15,5 +15,5 @@ spring:
         dialect: org.hibernate.dialect.MySQL55Dialect
         format_sql: true
         use_sql_comments: true
-        hbm2ddl_auto: create
+        hbm2ddl_auto: validate
         jdbc_batch_size: 10
