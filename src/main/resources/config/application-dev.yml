@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/jpa_study?serverTimeZone=UTC&characterEncoding=UTF8
+    username: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        dialect: org.hibernate.dialect.MySQL55Dialect
+        format_sql: true
+        use_sql_comments: true
+        hbm2ddl_auto: create
+        jdbc_batch_size: 10
