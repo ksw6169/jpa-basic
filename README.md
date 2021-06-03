@@ -13,4 +13,5 @@
   - [9장_값 타입](https://github.com/ksw6169/jpa-basic/wiki/9%EC%9E%A5_%EA%B0%92-%ED%83%80%EC%9E%85)
   - [10장_객체지향 쿼리 언어(1)](https://github.com/ksw6169/jpa-basic/wiki/10%EC%9E%A5_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%BF%BC%EB%A6%AC-%EC%96%B8%EC%96%B4(1))
   - [10장_객체지향 쿼리 언어(2)](https://github.com/ksw6169/jpa-basic/wiki/10%EC%9E%A5_%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EC%BF%BC%EB%A6%AC-%EC%96%B8%EC%96%B4(2))
+  - [11장_웹 애플리케이션 제작](https://github.com/ksw6169/jpa-basic/wiki/11%EC%9E%A5_%EC%9B%B9-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98-%EC%A0%9C%EC%9E%91)
 - [Issues](https://github.com/ksw6169/jpa-basic/issues)
