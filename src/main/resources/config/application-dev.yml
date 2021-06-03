@@ -17,6 +17,7 @@ spring:
         use_sql_comments: true
         hbm2ddl_auto: validate
         jdbc_batch_size: 10
+#        new_generator_mappings: true
   thymeleaf:
     prefix: classpath:/templates
     suffix: .html

@@ -17,4 +17,5 @@ public class HibernateProperties {
     private boolean useSqlComments;
     private String hbm2ddlAuto;
     private int jdbcBatchSize;
+//    private boolean newGeneratorMappings;     // JPA에 맞춘 새로운 ID 생성 방법을 사용한다.
 }
