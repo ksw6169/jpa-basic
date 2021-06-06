@@ -1,4 +1,4 @@
-package com.corgi.jpastudy.entity.dto;
+package com.corgi.jpastudy.domain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

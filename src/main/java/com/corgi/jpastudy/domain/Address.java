@@ -1,26 +1,24 @@
-package com.corgi.jpastudy.entity;
+package com.corgi.jpastudy.domain;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Column;
 import javax.persistence.Embeddable;
 
-@Embeddable
 @NoArgsConstructor
-@AllArgsConstructor
+@Embeddable
 @Getter
 @Setter
 public class Address {
 
-    @Column(name = "city")
     private String city;
-
-    @Column(name = "street")
     private String street;
-
-    @Column(name = "zip_code")
     private String zipcode;
+
+    public Address(String city, String street, String zipcode) {
+        this.city = city;
+        this.street = street;
+        this.zipcode = zipcode;
+    }
 }

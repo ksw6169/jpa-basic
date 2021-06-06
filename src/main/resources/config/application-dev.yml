@@ -1,5 +1,5 @@
-server:
-  port: 8081
+#server:
+#  port: 8080
 
 spring:
   datasource:
@@ -19,5 +19,9 @@ spring:
         jdbc_batch_size: 10
 #        new_generator_mappings: true
   thymeleaf:
-    prefix: classpath:/templates
+    prefix: classpath:templates
     suffix: .html
+    check-template-location: true
+    cache: false
+#  mvc:
+#    static-path-pattern: /static/**

@@ -19,7 +19,7 @@ import java.util.Properties;
 @EnableTransactionManagement
 public class HibernateConfiguration {
 
-    private static final String[] SCAN_PACKAGES = { "com.corgi.jpastudy.entity" };
+    private static final String[] SCAN_PACKAGES = { "com.corgi.jpastudy.domain" };
 
     private final HibernateProperties hibernateProperties;
 
@@ -45,7 +45,6 @@ public class HibernateConfiguration {
 
         JpaTransactionManager transactionManager = new JpaTransactionManager();
         transactionManager.setEntityManagerFactory(factory);
-
         return transactionManager;
     }
 

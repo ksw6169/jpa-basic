@@ -1,4 +1,4 @@
-package com.corgi.jpastudy.entity;
+package com.corgi.jpastudy.domain;
 
 import lombok.Getter;
 import lombok.Setter;
