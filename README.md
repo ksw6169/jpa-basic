@@ -17,4 +17,5 @@
   - [12장_스프링 데이터 JPA](https://github.com/ksw6169/jpa-basic/wiki/12%EC%9E%A5_%EC%8A%A4%ED%94%84%EB%A7%81-%EB%8D%B0%EC%9D%B4%ED%84%B0-JPA)
   - [13장_웹 애플리케이션과 영속성 관리](https://github.com/ksw6169/jpa-basic/wiki/13%EC%9E%A5_%EC%9B%B9-%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%EA%B3%BC-%EC%98%81%EC%86%8D%EC%84%B1-%EA%B4%80%EB%A6%AC)
   - [14장_컬렉션과 부가 기능](https://github.com/ksw6169/jpa-basic/wiki/14%EC%9E%A5_%EC%BB%AC%EB%A0%89%EC%85%98%EA%B3%BC-%EB%B6%80%EA%B0%80-%EA%B8%B0%EB%8A%A5)
+  - [15장_고급 주제와 성능 최적화](https://github.com/ksw6169/jpa-basic/wiki/15%EC%9E%A5_%EA%B3%A0%EA%B8%89-%EC%A3%BC%EC%A0%9C%EC%99%80-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94)
 - [Issues](https://github.com/ksw6169/jpa-basic/issues)
